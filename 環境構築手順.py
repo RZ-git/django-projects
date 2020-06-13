@@ -12,7 +12,8 @@
 ⑤pipのアップデート（任意）
     >> python -m pip install --upgrade pip
 ⑥whlファイルをダウンロードして、mysqlclientをインストール。ルートディレクトリに配置。
-    ファイル名：mysqlclient-1.4.6-cp38-cp38-win32.whl（環境によって異なる場合有り）
+    ファイル名：mysqlclient-1.4.6-cp38-cp38-win32.whl
+          またはmysqlclient-1.4.6-cp38-cp38-win_amd64.whl（環境によって異なる場合有り）
     https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
     >> pip install mysqlclient-1.4.6-cp38-cp38-win32.whl
 ⑦必要なライブラリをインストール

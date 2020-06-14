@@ -5,8 +5,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ALLOWED_HOSTS = []
 
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-# オプション https://dev.mysql.com/doc/refman/5.6/en/sql-mode.html#sql-mode-setting
+# https://docs.djangoproject.com/ja/3.0/ref/settings/
+# MySQLオプション https://dev.mysql.com/doc/refman/5.6/ja/sql-mode.html#sql-mode-setting
 
 DATABASES = {
     'default': {

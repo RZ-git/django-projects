@@ -5,8 +5,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ALLOWED_HOSTS = []
 
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-# オプション https://dev.mysql.com/doc/refman/5.6/en/sql-mode.html#sql-mode-setting
+# 設定 https://docs.djangoproject.com/ja/3.0/ref/settings/
+# MySQLオプション https://dev.mysql.com/doc/refman/5.6/ja/sql-mode.html#sql-mode-setting
 
 DATABASES = {
     'default': {
@@ -31,8 +31,8 @@ DATABASES = {
 #     }
 # }
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
+# クイックスタート開発設定 - 本番には不適
+# デプロイチェックリスト https://docs.djangoproject.com/ja/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: 本番環境で使われるシークレットキーは公開しないでください！
 SECRET_KEY = '**&v#qiu6)94r69ofz1de-%2wf3uo)#0b7g2-b@2$!=ar@(uiu'

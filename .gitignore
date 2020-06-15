@@ -5,7 +5,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=venv,django,python,pycharm,visualstudiocode
 
 ### ユーザー設定 ###
-/.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
 
 ### Django ###
 *.log

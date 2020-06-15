@@ -40,7 +40,6 @@ SECRET_KEY = '**&v#qiu6)94r69ofz1de-%2wf3uo)#0b7g2-b@2$!=ar@(uiu'
 # SECURITY WARNING: 本番環境でデバッグをオンにして実行しないでください！
 DEBUG = True
 
-
 # アプリケーション定義
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -69,7 +68,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['static'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,3 +118,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/ja/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)

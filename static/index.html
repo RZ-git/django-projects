@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Dj-chat</title>
+</head>
+
+<body>
+{% block extrahead %}
+<link href="{% static 'index.css' %}" rel="stylesheet">
+{% endblock %}
+<h1> Dj-chat </h1>
+<article>
+    参考記事①：
+    <a href="https://qiita.com/egplnt/items/fbd99a08347246f955e2" target="_blank" rel="noopener noreferrer">
+        Djangoでウェブアプリ - cssを使ってみる
+    </a>
+</article>
+<article>
+    参考記事②：
+    <a href="https://www.webcreatorbox.com/tech/css-grid-layout" target="_blank" rel="noopener noreferrer">
+        CSSグリッドレイアウトで、サイズが違う複数のボックスをタイル状に配置する
+    </a>
+</article>
+<!--<nav>ナビ</nav>-->
+<!--<footer>フッター</footer>-->
+<div class="container">
+    <div class="item box-big1">AWS</div>
+    <div class="item">ブローノ・ブチャラティ</div>
+    <div class="item">CSS</div>
+    <div class="item">
+        <a href="https://docs.djangoproject.com/ja/3.0/intro/tutorial01/" target="_blank" rel="noopener noreferrer">
+            <div class="image">
+                <img src="static/image/django.png" alt="Djangoアイコン" title="django">
+            </div>
+        </a>
+    </div>
+    <div class="item">Excellent</div>
+    <div class="item box-big2">チャット要素？そんなものはない(､´･ω･)▄︻┻┳═一　　　　( ﾟдﾟ)･∵. ﾀｰﾝ</div>
+    <div class="item box-big3">
+        <a href="https://github.com/RZ-git/django-projects" target="_blank" rel="noopener noreferrer">
+            GitHub
+        </a>
+    </div>
+    <div class="item">HTML</div>
+    <div class="item">DBeaver</div>
+    <div class="item">MySQL</div>
+    <div class="item box-big4">
+        <a href="https://docs.python.org/ja/3/" target="_blank" rel="noopener noreferrer">
+            Python 3.8.3 ドキュメント
+        </a>
+    </div>
+</div>
+</body>
+</html>

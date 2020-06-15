@@ -25,6 +25,7 @@ class Authority(BaseModel):
 
 class User(BaseModel):
     """ ユーザー """
+    create_user = models.ForeignKey('self', on_delete=models.PROTECT)
     # 性
     last_name = models.CharField(max_length=50, default='')
     # 名
@@ -38,3 +39,6 @@ class User(BaseModel):
 
     class Meta:
         db_table = 'user'
+
+    # def save(self, *args, **kwargs):
+    #     super(User, self).save(*args, **kwargs)

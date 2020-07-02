@@ -1,7 +1,7 @@
 import uuid
 
 from django.db import models
-from django_currentuser.middleware import get_current_user, get_current_authenticated_user
+# from django_currentuser.middleware import get_current_user, get_current_authenticated_user
 
 
 class BaseModel(models.Model):

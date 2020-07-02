@@ -11,7 +11,7 @@ ALLOWED_HOSTS = []
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'chat_db',
+        'NAME': 'kir',
         'USER': 'root',
         'PASSWORD': 'パスワード',
         'HOST': 'localhost',
